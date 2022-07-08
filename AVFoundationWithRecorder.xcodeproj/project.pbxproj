@@ -16,6 +16,8 @@
 		0982028726765EE300B8CF2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0982028626765EE300B8CF2B /* main.m */; };
 		0982029126765EE300B8CF2B /* AVFoundationWithRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0982029026765EE300B8CF2B /* AVFoundationWithRecorderTests.m */; };
 		0982029C26765EE300B8CF2B /* AVFoundationWithRecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0982029B26765EE300B8CF2B /* AVFoundationWithRecorderUITests.m */; };
+		098202AB2676614D00B8CF2B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098202AA2676614D00B8CF2B /* AVFoundation.framework */; };
+		098202AD2676616000B8CF2B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098202AC2676616000B8CF2B /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		0982029726765EE300B8CF2B /* AVFoundationWithRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVFoundationWithRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0982029B26765EE300B8CF2B /* AVFoundationWithRecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundationWithRecorderUITests.m; sourceTree = "<group>"; };
 		0982029D26765EE300B8CF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		098202AA2676614D00B8CF2B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		098202AC2676616000B8CF2B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098202AD2676616000B8CF2B /* CoreMedia.framework in Frameworks */,
+				098202AB2676614D00B8CF2B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +94,7 @@
 				0982028F26765EE300B8CF2B /* AVFoundationWithRecorderTests */,
 				0982029A26765EE300B8CF2B /* AVFoundationWithRecorderUITests */,
 				0982027226765EE100B8CF2B /* Products */,
+				098202A92676614D00B8CF2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +142,15 @@
 				0982029D26765EE300B8CF2B /* Info.plist */,
 			);
 			path = AVFoundationWithRecorderUITests;
+			sourceTree = "<group>";
+		};
+		098202A92676614D00B8CF2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				098202AC2676616000B8CF2B /* CoreMedia.framework */,
+				098202AA2676614D00B8CF2B /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5PWWXC6BKU;
 				INFOPLIST_FILE = AVFoundationWithRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5PWWXC6BKU;
 				INFOPLIST_FILE = AVFoundationWithRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
