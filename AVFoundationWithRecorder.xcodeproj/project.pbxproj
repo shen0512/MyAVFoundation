@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0917EC4228791CE30038B4F3 /* MyCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 0917EC4128791CE30038B4F3 /* MyCamera.m */; };
 		0982027626765EE100B8CF2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0982027526765EE100B8CF2B /* AppDelegate.m */; };
 		0982027926765EE100B8CF2B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0982027826765EE100B8CF2B /* SceneDelegate.m */; };
 		0982027C26765EE100B8CF2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0982027B26765EE100B8CF2B /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0917EC4028791CE30038B4F3 /* MyCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCamera.h; sourceTree = "<group>"; };
+		0917EC4128791CE30038B4F3 /* MyCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCamera.m; sourceTree = "<group>"; };
 		0982027126765EE100B8CF2B /* AVFoundationWithRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundationWithRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0982027426765EE100B8CF2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0982027526765EE100B8CF2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		0982029D26765EE300B8CF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		098202AA2676614D00B8CF2B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		098202AC2676616000B8CF2B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		09A192D12895601A00C82A75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		0982026826765EE100B8CF2B = {
 			isa = PBXGroup;
 			children = (
+				09A192D12895601A00C82A75 /* README.md */,
 				0982027326765EE100B8CF2B /* AVFoundationWithRecorder */,
 				0982028F26765EE300B8CF2B /* AVFoundationWithRecorderTests */,
 				0982029A26765EE300B8CF2B /* AVFoundationWithRecorderUITests */,
@@ -122,6 +127,8 @@
 				0982028226765EE300B8CF2B /* LaunchScreen.storyboard */,
 				0982028526765EE300B8CF2B /* Info.plist */,
 				0982028626765EE300B8CF2B /* main.m */,
+				0917EC4028791CE30038B4F3 /* MyCamera.h */,
+				0917EC4128791CE30038B4F3 /* MyCamera.m */,
 			);
 			path = AVFoundationWithRecorder;
 			sourceTree = "<group>";
@@ -286,6 +293,7 @@
 				0982027626765EE100B8CF2B /* AppDelegate.m in Sources */,
 				0982028726765EE300B8CF2B /* main.m in Sources */,
 				0982027926765EE100B8CF2B /* SceneDelegate.m in Sources */,
+				0917EC4228791CE30038B4F3 /* MyCamera.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
